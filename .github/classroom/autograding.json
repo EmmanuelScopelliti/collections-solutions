@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "",
+      "run": "mvn -q -Dtest=TableTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "",
+      "run": "mvn -q -Dtest=RestaurantTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "",
+      "run": "mvn -q -Dtest=CourseCloneTest,CourseConstructorTest,CourseEnrollmentTest,CourseGradeTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "",
+      "run": "mvn -q -Dtest=CustomerTest,OrderTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
